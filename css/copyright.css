@@ -1,0 +1,19 @@
+.copyright{
+    display: block;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 100px;
+    background: url('../img/billboard.jpg') no-repeat;    
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.copyright h3{
+    color: #fff;
+    font-family: "raleway-regular";
+    font-size: 14px;
+    font-weight: normal!important;
+    margin: 20px 0 0 0;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>World Travel</title>
+	<link rel="stylesheet" type="text/css" href="css/tab.css">
+	<link rel="stylesheet" type="text/css" href="css/progress.css">
+	<link rel="stylesheet" type="text/css" href="css/slide.css">
+  <link rel="stylesheet" type="text/css" href="css/copyright.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+body {
+    background-color: black;
+}
+h1, h2 {
+    color:white;}
+h3 {color:limegreen;}
+p {color:white;
+  font-size:16pt;}
+</style>
+
+</head>	
+
+<body fontcolor="white">
+  <br>
+	<div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+<img src="images/logo.png" alt="logo" width=100px; height=100px; align="right">
+		<header class="wrapper light">
+			<nav>
+				<ul>
+					<li><a href="index1.html">Home</a></li>
+					<li><a href="park.html">Serengeti Park</a></li>
+					<li><a href="znz.html">Zanzibar</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="WorldTravel.html">Log Out</a></li>	
+				</ul>
+			</nav>
+		</header>
+<hr>
+<hr>
+<h1 align="center">MT. KILIMANJARO <img src="images/tz.gif" alt="logo" width=100px; height=100px; align="left"></h1>
+<hr>
+<hr>
+
+<div class="content">
+<h1 align="right"><u>Introduction</u></h1>
+
+<p>At 5896m Mt Kilimanjaro, Africa's highest mountain and one of the continent's magnificent sights, It has three main volcanic peaks, Kibo, Mawenzi, and Shira. The name itself "Kilimanjaro" is a mystery wreathed in clouds. It might mean Mountain of Light, Mountain of Greatness or Mountain of Caravans. </p>
+
+
+<!-- this is for the slidshare view -->
+<div class="slideshow-container"> 
+
+<div class="mySlides fade"> 
+  <img src="images/kili/view.jpg" style="width:100%">
+  <div class="text"><b><u>Way to Kibo</b></u></div>
+</div>
+
+<div class="mySlides fade">
+
+  <img src="images/kili/machame.jpeg" style="width:100%">
+  <div class="text"><b><u>Machame route</b></u></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/kili/gilmans.jpeg" style="width:100%">
+  <div class="text"><b><u>Gilmans view</b></u></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+
+<!-- body text starts -->
+<hr>
+<hr>
+  <p>This mountain is located near a town known as <b>moshi</b> and is a protected area, carefully regulated fro climbers to enjoy without leaving a trace of their presence. This mountain had got much of a farmland, with the growth of coffee, banana, cassava, maize for cash sale business. Once you enter the mountain it is ccovered with thick lowland forest, with lower attitudes and breaks into alphine meadows.</p>
+<hr>
+<hr>
+
+  <!-- video begins -->
+<div align="center">
+<video width="320" height="240" controls autoplay> 
+  <source src="video/kili.mp4" type="video/mp4">
+  Mt Kilimanjaro short video
+</video>
+</div>  
+<!-- video ends -->
+
+<hr>
+<hr>
+
+<p>Climibing this mountain is the most highlighted visitors' experience in Tanzania, where the adventure of a lifetime, especially because. if paced well, everyone froam seasoned treking to first-time enthuasists can scale the snowy peak. <b><u>Kilimanjaro,</u></b> by name itself is a mystery wreathed in clouds. It might also mean <b>"Mountain of light, Mountain of Greatness or Mountain of Caravans".</b> The hut known as Kibo, originally from the tribe <b>Wachagaa</b> called this hut kipoo is familar fro the snowy peak that stands imperious, overseer of the continent, and the summit of Africa. Kilimanjaro is one of the world's most accessible high summits, having a beacon for visitors from around the world. Uhuru point, the actual summit, or giillmans's point on the lip of crater, will earn their climbing certificate, and moreover their memories. But the mountain has so much more than her summit. The ascent of the slopes is a virtual climatic world tour, from the tropical rainforests to the arctic.</p>
+<hr>
+<hr>
+<!-- this is for the about place -->
+<h2><b><u><i>About Mount Kilimanjaro</i></u></b></h2>
+
+<h3><u>Size:</u> 1668 sq km</h3>
+
+<h3><u>Location:</u> Northen Tanzania, near the town of Moshi.</h3>
+
+<h3><u>Getting there:</u> 128km (80 miles) from Arusha</h3>
+
+<h3><u>What to do:</u> 
+  <li>6 to 7 days trekking, visit the beautiful lake chala crater on the mountain's southeastern slopes.</li></h3>
+
+<h3><u>Accomodation:</u>
+  <li> Huts</li>
+  <li>Campsites on the mountain</li></h3>
+
+<h3><u>Note:</u> 
+  <li>Climb slowly to increase your acclimatisation time and maximise your chances of reaching the summit.</li></h3>
+
+<h3><u>Rates:</u>
+    <li>Porters - USD 10 per day</li>
+    <li>Cooks - USD 15 per day</li>
+    <li>Guides - USD 20 per day.</li></h3>
+<!-- about place ends here -->
+
+<!-- slideshare script -->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<!-- slideshare codes end here -->
+
+<!-- script for the progress bar -->
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+<!-- end script for progress bar -->
+</body>
+<footer>
+  <section class="copyright">
+    </br>
+    </br>
+    </br>
+    <h3>Copyright@ RAJIV RAJESH MAKWANA | TP044124</h3>
+</section><!--  End copyright  -->
+</footer>
+</html>

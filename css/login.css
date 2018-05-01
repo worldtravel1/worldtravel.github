@@ -1,0 +1,54 @@
+body{ 
+ 	margin:0 auto;
+ 	height:100%;
+ 	background-image: url("https://images3.alphacoders.com/823/82317.jpg") ;
+ 	background-size:100% 720px no repeat; 
+ }
+ .container {
+ 	width: 500px;
+ 	height: 350px;
+ 	text-align: center;
+ 	margin: 0 auto;
+ 	margin-top: 250px;
+ 	border-radius: 4px;
+ 	background-color: rgba(52,73,94,0.7);
+ }
+
+ .container img{
+ 	width:300px;
+ 	height:80px;
+ 	margin-top: -40px;
+ 	margin-bottom: 30px;
+ }
+ input[type="text"], input[type="password"]{
+ 	height: 45px;
+ 	width: 300px;
+ 	font-size: 20px;
+ 	margin-bottom: 30px;
+ 	background-color: #fff;
+ 	padding-left: 40px;
+ 	border:none;
+ 	border-radius: 5px;
+ }
+
+ .form-input::before{
+ 	content: "\f007";
+ 	position: absolute;
+ 	font-family: "FontAwesome" ;
+ 	font-size: 30px;
+ 	padding-left: 5px;
+ 	padding-top: 7px;
+ 	font-size: 35px;
+ }
+ .form-input:nth-child(2)::before{
+ 	content: "\f023";
+ }
+ .btn-login{
+ 	padding: 20px 30px;
+ 	color: #fff;
+ 	border:none;
+ 	border-radius: 5px;
+ 	background-color: #3ECC71;
+ 	border-bottom: 4px solid #27AE60;
+ }
+ 
